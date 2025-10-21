@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>VetDose Ultra</title>
+<link rel="manifest" href="manifest.json"/>
+<link rel="stylesheet" href="styles.css"/>
+</head><body>
+<header><h1>🐾 VetDose Ultra</h1><p>Calculadora veterinaria interactiva</p></header>
+<main>
+<div class="controls">
+<input id="search" placeholder="Buscar medicamento..."/>
+<select id="species"><option value="perro">Perro</option><option value="gato">Gato</option><option value="bovino">Bovino</option></select>
+<input id="weight" type="number" placeholder="Peso (kg)" min="0" step="0.1"/>
+<button id="calc">Calcular</button>
+</div>
+<div id="list"></div>
+<div id="result"></div>
+</main>
+<script src="app.js"></script>
+</body></html>
